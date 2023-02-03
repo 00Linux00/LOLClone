@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+.pagesize {
+  width: 80%;
+  margin: auto; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Roboto,Arial,Helvetica,"Droid Sans",sans-serif; }
+  body a {
+    text-decoration: none;
+    color: var(--text-link); }
+  body li {
+    list-style: none; }
+
+.newsContentPage {
+  position: relative;
+  animation: fadeUp 1s ease 1 backwards; }
+  .newsContentPage .newsContentPage__banner {
+    position: relative;
+    top: -11rem;
+    z-index: 1; }
+    .newsContentPage .newsContentPage__banner .newsContentPage__banner-img {
+      width: 100%; }
+  .newsContentPage .newsContentPage__main {
+    position: relative;
+    top: -9rem; }
+    .newsContentPage .newsContentPage__main .newsContentPage__main--title {
+      position: relative;
+      text-align: center;
+      width: 100%;
+      height: 4.375rem;
+      line-height: 4.375rem;
+      margin: 0rem 0.5rem 1rem; }
+      .newsContentPage .newsContentPage__main .newsContentPage__main--title svg[data-responsive-pc] {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 66.5rem; }
+        .newsContentPage .newsContentPage__main .newsContentPage__main--title svg[data-responsive-pc] path {
+          fill: none;
+          stroke: var(--stock-viewbox);
+          stroke-width: 1px;
+          stroke-linecap: round;
+          stroke-dasharray: 2265;
+          animation: svganimation 2.5s ease 1 backwards; }
+    .newsContentPage .newsContentPage__main .newsContentPage__main--content {
+      padding: 0 3.8rem;
+      font-size: 0.8rem;
+      line-height: 1.7; }
+      .newsContentPage .newsContentPage__main .newsContentPage__main--content p.text-header-new {
+        color: var(--text-header-news);
+        font-size: 1.3rem; }
+      .newsContentPage .newsContentPage__main .newsContentPage__main--content p {
+        margin-bottom: 0.5rem; }
+      .newsContentPage .newsContentPage__main .newsContentPage__main--content .content-img {
+        width: 70%;
+        margin: 0 auto; }
+        .newsContentPage .newsContentPage__main .newsContentPage__main--content .content-img img {
+          max-width: 100%;
+          height: auto; }
+      .newsContentPage .newsContentPage__main .newsContentPage__main--content hr {
+        margin-top: -0.6rem;
+        margin-bottom: 0.5rem; }
+
+footer {
+  margin-top: -2rem; }
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40%, 0); }
+  to {
+    opacity: 1;
+    transform: translateZ(0); } }
+
+@keyframes svganimation {
+  from {
+    stroke-dasharray: 2265; }
+  to {
+    stroke-dasharray: 0; } }

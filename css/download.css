@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+.pagesize {
+  width: 80%;
+  margin: auto; }
+
+.mauto {
+  margin: auto; }
+
+.mb {
+  margin-bottom: 1rem; }
+
+hr {
+  color: #ccc;
+  background-color: #ccc;
+  border-width: 0;
+  height: 0.1px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Roboto,Arial,Helvetica,"Droid Sans",sans-serif; }
+  body a {
+    text-decoration: none;
+    color: var(--text-link); }
+  body li {
+    list-style: none; }
+
+.downloadPage__platform {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3.5rem;
+  grid-gap: 10px; }
+  .downloadPage__platform--registration {
+    background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/banner/apply.jpg) no-repeat;
+    height: 20.6rem; }
+    .downloadPage__platform--registration-link {
+      background-color: var(--reg-download) !important; }
+  .downloadPage__platform--downgame-slow {
+    background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/banner/download1.jpg) no-repeat;
+    height: 20.6rem; }
+  .downloadPage__platform--downgame-fast {
+    background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/banner/download2.jpg) no-repeat;
+    width: 35.4rem;
+    grid-column: 3/5; }
+    .downloadPage__platform--downgame-fast-link {
+      width: 45% !important; }
+  .downloadPage__platform .background {
+    background-size: contain; }
+  .downloadPage__platform--all .downloadPage__platform--btn {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 14.5rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    background-color: var(--download-btn-blue); }
+    .downloadPage__platform--all .downloadPage__platform--btn a {
+      color: var(--blue-btn);
+      font-weight: 800;
+      display: block; }
+  .downloadPage__platform--all .downloadPage__platform--dicr {
+    text-align: center;
+    margin-top: 0.6rem;
+    color: var(--reg-text-dicr);
+    font-size: 0.7rem; }
+
+.items__border {
+  border: 1px solid var(--border-update-page);
+  padding: 1.5rem;
+  margin-bottom: 2rem; }
+
+.items--heading {
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--items-heading);
+  font-size: 1.3rem;
+  font-weight: 800; }
+  .items--heading--icon {
+    height: 2rem;
+    line-height: 3.4rem;
+    transform: rotate(45deg);
+    font-size: 0.52rem; }
+  .items--heading--icon:nth-child(2) {
+    margin-left: -0.5rem; }
+
+.items__recomment {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--items-recomment); }
+
+.items .items__update .items__update--handle-title {
+  color: var(--handle-title);
+  font-weight: 400;
+  font-size: 1.4rem; }
+
+.items .table .table__4col {
+  width: calc(100%/4); }
+
+.items .table .table__3col {
+  width: calc(100%/3); }
+
+.items .table .vertical {
+  vertical-align: middle; }
+
+.items .table .black {
+  color: #535352; }
+
+.items .table__heading {
+  background-color: var(--head-table);
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 0; }
+  .items .table__heading--text {
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--text-white); }
+
+.items .table__item--row {
+  font-size: 0;
+  background-color: #eee;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ccc; }
+  .items .table__item--row-3 {
+    width: 25%; }
+  .items .table__item--row-5 {
+    width: calc(100%/3); }
+  .items .table__item--row-dirc {
+    display: inline-block;
+    font-size: 1rem;
+    text-align: center;
+    color: #4f8684; }
+
+.items__downloadbyGPC--guild-video {
+  width: 80%;
+  margin: auto;
+  padding: 1.5rem 0 1rem; }
+  .items__downloadbyGPC--guild-video iframe {
+    width: 100%;
+    height: 26rem; }
+
+.items--btn {
+  width: 13.125rem;
+  height: 2rem;
+  line-height: 2rem;
+  background-color: var(--download-btn-blue);
+  text-align: center; }
+  .items--btn > a {
+    color: var(--blue-btn);
+    font-weight: 600; }
+
+.items .driver-btn {
+  display: flex; }
+  .items .driver-btn .driver-btn2 {
+    margin-left: 1rem; }
+.items__driver {
+  padding-bottom: 2.5rem;
+}

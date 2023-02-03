@@ -1,0 +1,29 @@
+:root {
+  --text-white: #fff;
+  --text-black: #000;
+  --text-blur: #808080;
+  --text-content: #21C6E4;
+  --text-link: #fff;
+  --text-navbar: #D2B48C;
+  --text-header-news: #be976c;
+  --text-red: #FF0000;
+  --bc-navbar: #101215;
+  --bc-navmobile: #ccbe91;
+  --bc-subnav: #061B23;
+  --bc-footer: #101215;
+  --navbar-hover: #0bc6e3;
+  --sn--text-hover: #1398e6;
+  --stock-viewbox: #898989;
+  --dot-color: #559392;
+  --dot-active: #C2902D;
+  --blur-color: #8C8C8C;
+  --reg-download: #F5C04C;
+  --blue-btn: #013745;
+  --reg-text-dicr: #5FC7DA; 
+  --download-btn-blue: #0BC6E4;
+  --border-update-page: #c1c1c1;
+  --items-heading: #b59668;
+  --items-recomment: #2c3e50;
+  --handle-title: #167271;
+  --head-table: #061d25;
+}

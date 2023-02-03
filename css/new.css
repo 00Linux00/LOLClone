@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@use 'root';
+@use 'navbar';
+@use 'footer';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Roboto,Arial,Helvetica,"Droid Sans",sans-serif; }
+  body a {
+    text-decoration: none;
+    color: var(--text-link); }
+  body li {
+    list-style: none; }
+
+
+
+.news {
+  background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/bg-news.jpg);
+  width: 100%;
+  height: 17.625rem; }
+  .news .news__newest {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto; }
+    .news .news__newest .news__newest--main {
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      height: 8.125rem;
+      align-items: center;
+      margin-top: 4.975rem;
+      background-color: #fff;
+      border-radius: 20px; }
+      .news .news__newest .news__newest--main .news__newest--main--img {
+        width: 50%;
+        padding: 0 1.2rem; }
+      .news .news__newest .news__newest--main .news__newest--main-box .news__newest--main-box--title {
+        font-size: 15px;
+        color: var(--text-content); }
+      .news .news__newest .news__newest--main .news__newest--main-box .news__newest--main-box--discr {
+        font-size: 15px;
+        color: var(--text-black); }
+    .news .news__newest .news__newest--main:hover {
+      border-radius: 0; }
+
+.search {
+  width: 25rem;
+  height: 3.125rem;
+  margin: 2.5rem auto;
+  text-align: center;
+  line-height: 50px; }
+  .search .search__btn {
+    float: left;
+    line-height: 50px;
+    font-size: 30px;
+    color: var(--dot-active); }
+  .search .search__text {
+    border: none;
+    font-size: 23px;
+    text-align: center;
+    outline: none; }
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto; }
+  .content .content__list {
+    width: 60%; }
+    .content .content__list .content__list--new {
+      display: flex;
+      margin-bottom: 2rem; }
+      .content .content__list .content__list--new .content__list--new-img {
+        width: 40%;
+        margin-right: 5rem; }
+      .content .content__list .content__list--new .content__list--new-box {
+        color: var(--text-black); }
+        .content .content__list .content__list--new .content__list--new-box .content__list--new-box--title {
+          padding: 0.7rem 0;
+          color: var(--text-content); }
+        .content .content__list .content__list--new .content__list--new-box .content__list--new-box--header {
+          font-size: 1.2rem;
+          padding-bottom: 0.5rem; }
+        .content .content__list .content__list--new .content__list--new-box .content__list--new-box--discr {
+          padding-bottom: 1.2rem; }
+        .content .content__list .content__list--new .content__list--new-box .content__list--new-box--discr,
+        .content .content__list .content__list--new .content__list--new-box .content__list--new-time--update {
+          color: var(--text-blur); }
+  .content .right {
+    border-left: 1px solid #cccc;
+    padding-left: 2rem;
+    width: 30%; }
+  .content .content__category {
+    position: sticky;
+    top: 0.8rem; }
+    .content .content__category .content__category--main {
+      margin-bottom: 2rem;
+      height: 9%;
+      cursor: pointer; }
+      .content .content__category .content__category--main .title {
+        display: inline-block;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        color: var(--text-white); }
+      .content .content__category .content__category--main .content__category--main-link {
+        width: 90%;
+        height: 102%;
+        position: relative;
+        top: -36px;
+        display: block; }
+    .content .content__category .content__category--main::after {
+      content: "";
+      position: relative;
+      width: 0;
+      height: 0;
+      top: -8.9rem;
+      right: -17.6rem;
+      border-top: 9px solid var(--text-white);
+      border-left: 9px solid transparent; }
+    .content .content__category .event {
+      background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/banner/category2.jpg) center/cover no-repeat; }
+    .content .content__category .gamenews {
+      background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/banner/category1.jpg) center/cover no-repeat; }
+    .content .content__category .esport {
+      background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/banner/category3.jpg) center/cover no-repeat; }
+    .content .content__category .community {
+      background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/banner/category7.jpg) center/cover no-repeat; }
+    .content .content__category .handbook {
+      background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/banner/category8.jpg) center/cover no-repeat; }
+    .content .content__category .univer {
+      background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/banner/category4.jpg) center/cover no-repeat; }

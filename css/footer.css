@@ -1,0 +1,87 @@
+footer {
+  background-color: var(--bc-footer);
+  padding: 10% 0 5%;
+  text-align: center; }
+  footer .footer__container {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px; }
+    footer .footer__container .footer__logo {
+      background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/footer/logos-vn.png) no-repeat;
+      position: absolute;
+      width: 41%;
+      height: 29%;
+      bottom: 110%; }
+    footer .footer__container .footer__content {
+      color: var(--text-white); }
+      footer .footer__container .footer__content .footer__text {
+        padding-bottom: 2rem; }
+      footer .footer__container .footer__content .footer__connect {
+        margin-bottom: 1.3rem; }
+        footer .footer__container .footer__content .footer__connect > a {
+          color: var(--text-link);
+          text-decoration: none;
+          padding-right: 0.8rem; }
+          footer .footer__container .footer__content .footer__connect > a > i {
+            padding-right: 0.2rem; }
+    footer .footer__container .footer__play4free {
+      display: flex;
+      justify-content: space-between;
+      width: 67%;
+      margin: auto; }
+      footer .footer__container .footer__play4free .footer__play4free-btn {
+        background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/footer/playForFree.png) no-repeat;
+        width: 180px;
+        height: 50px;
+        line-height: 50px; }
+      footer .footer__container .footer__play4free .footer__play4free--age-limit {
+        background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/footer/vn-12.png) no-repeat;
+        background-size: contain;
+        width: 115px;
+        height: 50px; }
+
+/* todo reponsive */
+/* todo table */
+
+@media (min-width: 650px) and (max-width: 910px) {
+  footer .footer__container {
+    width: 95%;
+    position: relative; }
+    footer .footer__container .footer__logo {
+      width: 46%;
+      height: 32%;
+      bottom: 100%; }
+    footer .footer__container .footer__content {
+      position: relative;
+      top: 1.7rem; }
+      footer .footer__container .footer__content .footer__play4free {
+        width: 60%; } }
+        
+/* todo mobile */
+
+@media (max-width: 649px) {
+  footer {
+    position: absolute;
+    height: 55%; }
+    footer .footer__container {
+      width: 100%; }
+      footer .footer__container .footer__logo {
+        width: 75%;
+        bottom: 75%; }
+      footer .footer__container .footer__content {
+        position: relative;
+        width: 98%;
+        top: 4rem; }
+        footer .footer__container .footer__content .footer__connect {
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-gap: 1rem 0; }
+        footer .footer__container .footer__content .footer__play4free {
+          width: 31%; }
+          footer .footer__container .footer__content .footer__play4free-btn {
+            display: none; } }
